@@ -33,7 +33,7 @@ function draw(){
         nofill(); 
         stroke(r,g,b);
         rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
-        if (objects[i].label = "person"){
+        if (objects[i].label == "person"){
             document.getElementById("status").innerHTML = "Baby has been detected";
             music.stop();
         }
